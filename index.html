@@ -1,44 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./style.css" />
-  <title>Sign Up</title>
+    <title>Welcome</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        input {
+            font-family: "Poppins", sans-serif;
+            background-image: url("./image/loginimg.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+
+        }
+
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:white;
+}
+
+        .center {
+            margin-top: 20%;
+            margin-left: 30%;
+            width: 40%;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: aqua;
+            text-align: center;
+        }
+
+    </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="forms-container">
-      <div class="signin-signup">
 
-        <form action="#" class="sign-in-form">
-          <h2 class="title">Sign in</h2>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="./signup.html">signup</a></li>
+      </ul>
 
-
-          <div class="input-field">
-            <i class="fas fa-envelope"></i>
-            <input type="email" placeholder="Email" id="email" required />
-          </div>
-
-          <div class="input-field">
-            <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password" id="password" required/>
-          </div>
-
-          <button type="button" onclick="signup()" class="btn solid">Register</button>
-
-          <p>Already you have account <a href="./login.html"> Login Now</a></p>
-
-        </form>
-      </div>
+     <div class="center">
+        <h1>Welcome User</h1>
     </div>
 
-    <script src="./script.js"></script>
-
-
+    
 </body>
 
 </html>

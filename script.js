@@ -39,8 +39,8 @@ function login() {
 
         if (findUser && findUser.length !== 0) 
         {
-            // alert("user login successfully");
-           window.location.href="welcome.html";
+            alert("user login successfully");
+           window.location.href="index.html";
         //    console.log("you are IN");
         }
         else {
