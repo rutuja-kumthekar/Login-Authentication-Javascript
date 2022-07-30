@@ -15,7 +15,7 @@ In this project i have done the Authentication for login page using Javascript l
 
 - If you Register alredy then your login data is alredy saved in our local storage , then you choose login page.
 
-- If you are try to Login portal with alredy Register data then you go to first page "index.html" means welcome user page otherwise page saying you "user password is not match" or "username and password is not found".
+- If you are try to Login portal with alredy Register data then you got the alert massage "user login successfully" then click ok button in pop-up box then you go to first page "index.html" means welcome user page otherwise page saying you "user password is not match" or "username and password is not found".
 
 
 ## Documentation
