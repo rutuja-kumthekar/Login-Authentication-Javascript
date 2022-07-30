@@ -1,7 +1,7 @@
 
 # Login-Authentication-Javascript
 
-In this project i have done the Authentication for login page using Javascript local storage.
+In this project i have done the Authentication for login page using Javascript local storage.I used the local storage key and value for check login is authorized or not. If authorized then go to home page otherwise it shows alert "username or password is incorrect".
 
 
 
